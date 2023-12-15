@@ -496,6 +496,7 @@ UIState::UIState(QObject *parent) : QObject(parent) {
     "wideRoadCameraState", "managerState", "navInstruction", "navRoute", "uiPlan", "clocks",
     "carControl", "liveTorqueParameters",
     "frogpilotCarControl", "frogpilotCarState", "frogpilotDeviceState", "frogpilotPlan",
+    "carControl", "liveTorqueParameters", "naviData",
   });
 
   Params params;
