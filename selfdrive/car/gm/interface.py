@@ -301,7 +301,7 @@ class CarInterface(CarInterfaceBase):
           ret.longitudinalTuning.kpBP = [0., 3., 6., 35.]
           ret.longitudinalTuning.kpV = [0.125, 0.175, 0.225, 0.33]
           ret.longitudinalTuning.kiBP = [0., 35.0]
-          ret.longitudinalTuning.kiV = [0.1, 0.07]
+          ret.longitudinalTuning.kiV = [0.07, 0.07]
         ret.longitudinalTuning.kf = 0.25
         ret.stoppingDecelRate = 0.8
       else:  # Pedal used for SNG, ACC for longitudinal control otherwise
